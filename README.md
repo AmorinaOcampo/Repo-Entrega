@@ -1,8 +1,6 @@
-# Repo-Entrega
+## Tercera pre-entregaOcampo
 
-## Tercer entrega curso Python
-
-# Pasos para la creación del proyecto
+## Pasos para la creación del proyecto
 
 `git clone https://github.com/AmorinaOcampo/Repo-Entrega.git`
 > Clona el repositorio creado en GitHub
