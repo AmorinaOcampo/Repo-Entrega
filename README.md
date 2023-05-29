@@ -18,4 +18,14 @@ Pasos para la creación del proyecto
 > Visualizamos los paquetes instalados en el repositorio
 > Aseguramos tener Django instalado
 
+`django-admin startproject proyectoTercerE`
+> Crea un proyecto llamado proyectoTercerE en el directorio proyecto
 
+`python manage.py runserver`
+> Ejecuta el servidor
+
+`python manage.py startapp cliente`
+> Crea una aplicacion llamada cliente dentro del directorio apps
+
+`python manage.py startapp venta`
+> Crea una aplicacion llamada venta dentro del directorio apps
