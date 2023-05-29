@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+
+{% block TITULO %}RESULTADOS DE LA BÚSQUEDA{% endblock %}
+
+{% block CONTENIDO %}
+    <h2 style="color:darkkhaki">Búsquedad por venta de dos productos</h2>
+    <h2>Venta - Cantidad</h2>
+    {% for venta in venta_cantidad %}
+        <p>{{ venta }}</p>
+    {% endfor %}
+
+    <a href="{% url 'index' %}">Ir a menú principal</a>
+{% endblock %}

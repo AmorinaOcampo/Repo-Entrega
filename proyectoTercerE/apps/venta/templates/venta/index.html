@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+
+{% block TITULO %}VENTAS{% endblock %}
+
+{% block CONTENIDO %}
+    {% for venta in ventas %}
+        <p>{{ venta.producto }}</p>
+        <p>{{ venta.cantidad }}</p>
+    {% endfor %}
+    
+    <a href="{% url 'venta:crear-ventas' %}">Crear datos de ventas preestablecidas</a>
+    <br>
+    <a href="{% url 'venta:prueba-búsqueda' %}">Prueba de búsqueda</a>
+    <br>
+    <a href="{% url 'venta:crear' %}">Crear venta</a>
+    <br>
+    <a href="{% url 'index' %}">Ir a menú principal</a>
+{% endblock %}
