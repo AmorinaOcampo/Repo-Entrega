@@ -2,7 +2,7 @@
 
 ## Tercer entrega curso Python
 
-Pasos para la creación del proyecto
+# Pasos para la creación del proyecto
 
 `git clone https://github.com/AmorinaOcampo/Repo-Entrega.git`
 > Clona el repositorio creado en GitHub
@@ -29,3 +29,14 @@ Pasos para la creación del proyecto
 
 `python manage.py startapp venta`
 > Crea una aplicacion llamada venta dentro del directorio apps
+
+# Funcionalidades
+Creé una plantilla (templates) general y dentro de los directorios cliente y venta también creé sus respectivas plantillas.
+
+En la aplicación cliente, creé tres clases en models (Pais, Ciudad, Cliente).
+En la aplicación venta, creé dos clases en models (Producto, Venta).
+
+Como funciones para ambas aplicaciones definí: index, crear_clientes/ventas_predeterminadas, prueba_búsquedad, crear_cliente/venta.
+Además para la app venta creé la funcion cantidad_ventas_totales.
+
+Creé un archivo form.py en ambos directorios (cliente y venta), para crear formularios que me permitan agregar datos a los modelos directamente desde la web.
