@@ -34,6 +34,13 @@ def prueba_búsqueda(request):
     }
     return render(request, "venta/resultados_busqueda.html", contexto)
 
+def cantidad_ventas_totales(request):
+    venta_cant_total = Ventas.objects.count()
+
+    contexto = {
+        "venta_cant_total": venta_cant_total
+    }
+    return render(request, "venta/cant_total.html", contexto)
 
 def crear_venta(request):
     from .form import VentaForm

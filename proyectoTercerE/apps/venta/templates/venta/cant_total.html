@@ -1,0 +1,8 @@
+{% extends 'base.html' %}
+
+{% block TITULO %}CANTIDAD TOTAL DE VENTAS{% endblock %}
+
+{% block CONTENIDO %}
+    <p>{{ venta_cant_total }}</p>
+    <a href="{% url 'index' %}">Ir a menú principal</a>
+{% endblock %}
